@@ -12,7 +12,8 @@ import org.apache.mahout.math.Vector;
 public class Kmeans {
 
     public static void main(String[] args) throws IOException {
-        List<Vector> sampleData = MathUtil.readFileToVector("datafile/randomData.csv");
+        List<Vector> sampleData = MathUtil.readFileToVector("datafile/searchResults.txt");
+        
 
         int k = 3;
         double threshold = 0.01;
